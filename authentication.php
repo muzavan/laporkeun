@@ -16,6 +16,9 @@
 				$password1 = $values["password"];
 				if($var_password==$password1){
 					echo "Autentikasi berhasil!";
+					header( 'Location: timeline.php' ) ;
+
+
 				}
 				else{
 					echo "Autentikasi Gagal";
